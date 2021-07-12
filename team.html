@@ -58,7 +58,7 @@
             </ul>
 
             <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="#">Have a Crazy idea ?</a>
+              <p class="button m-0" data-toggle="modal" data-target="#idea-form">Have a Crazy idea ?</p>
             </div>
           </div> 
         </div>
@@ -68,6 +68,38 @@
   <!--================Header Menu Area =================-->
 
   <!--================Header Menu Area =================-->
+  <!-- Modal -->
+  <div class="modal fade" id="idea-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Send your crazy (stupid) ideas to us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <p><h3>Email:</h3></p>
+            <div class="input-group mb-3">
+              <input type="text" placeholder="dumb@you.com" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+             <p>We'll reach out to you through your email. Or if you want to remain anonymous <h7><b> *you can leave this empty*</b></h7>.</p>
+            <p><h3>Idea:</h3></p>
+            <div class="input-group">
+              <textarea class="form-control" placeholder="Type in everything about that idea you have in your idea" aria-label="With textarea"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn modal-button">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal ends-->
+
 
 
 
@@ -78,11 +110,35 @@
         <h1>Our Team</h1>
         <p>Bunch of jack heads</p>
       </div>
-    </div>
+    </div>    
   </section>
   <!--================Hero Banner SM Area End =================-->
-
-
+  <!--========-->
+  <section>
+    <div class="d-flex flex-column align-items-center">
+      <img class="rounded-circle" src="img/home/sharky.png"/>
+      <p><h4>Sharky</h4> <center>Happiness Manager<br> (also the only real person here)</center></p>
+    </div>
+    <br><br>
+    <div class="row d-flex justify-content-center">
+      <div class="col-3 d-flex flex-column align-items-center">
+        <img class="rounded-circle" src="img/home/ayush.png"/>
+        <p><h4>Ayush</h4>Real Tony Stark</p>
+        <!--<p>Description</p>-->
+      </div>
+      <div class="col-3 d-flex flex-column align-items-center">
+        <img class="rounded-circle" src="img/home/monarch.png"/>
+         <p><h4>Monarch</h4>Description</p>
+        <!--<p>Description</p>-->
+      </div>
+      <div class="col-3 d-flex flex-column align-items-center">
+        <img class="rounded-circle" src="img/home/gaurav.png"/>
+         <p><h4>Gaurav</h4> Description</p>
+        <!--<p>Description</p>-->
+      </div>
+    </div>
+  </section>
+  <!--========-->
   
 
 

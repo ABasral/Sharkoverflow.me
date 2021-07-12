@@ -58,7 +58,7 @@
             </ul>
 
             <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="#">Have a Crazy idea ?</a>
+              <p class="button m-0" data-toggle="modal" data-target="#idea-form">Have a Crazy idea ?</p>
             </div>
           </div> 
         </div>
@@ -66,7 +66,37 @@
     </div>
   </header>
   <!--================Header Menu Area =================-->
-
+  <!-- Modal -->
+  <div class="modal fade" id="idea-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Send your crazy (stupid) ideas to us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <p><h3>Email:</h3></p>
+            <div class="input-group mb-3">
+              <input type="text" placeholder="dumb@you.com" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+             <p>We'll reach out to you through your email. Or if you want to remain anonymous <h7><b> *you can leave this empty*</b></h7>.</p>
+            <p><h3>Idea:</h3></p>
+            <div class="input-group">
+              <textarea class="form-control" placeholder="Type in everything about that idea you have in your idea" aria-label="With textarea"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn modal-button">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal ends-->
 
   <!--================Hero Banner Area Start =================-->
   <section class="hero-banner magic-ball">
@@ -312,7 +342,7 @@
                   <p>Sit back and relax, as now you are a premium member of the club. Early investment opportunity in any one or more of our products. We'll send you something cool from our merch every year plus all the benefits of 'Almost premium Subsciption'.   </p>
                 </div>
                 <div class="media-price">
-                  <h4 class="text-primary">$1000/year</h4>
+                  <h4 class="text-primary">$800/year</h4>
                 </div>
               </div>
             </div>
